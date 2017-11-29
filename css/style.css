@@ -64,12 +64,18 @@ body {
 .form__inputs-wrap {
 	width: 100%;
 	margin-bottom: 20px;
+
+}
+
+.form__inputs-wrap input {
+	padding: 0 10px;
+	color: #fbf6e4;
 }
 
 .form__inputs-wrap input:hover,
 .form__inputs-wrap input:focus,
 .form__inputs-wrap input:active {
-	padding: 0 10px;
+
 	border: 2px solid rgba(251,246,228,.6);
 }
 
